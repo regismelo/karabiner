@@ -1,0 +1,150 @@
+{
+  "title": "Sun Keyboard mapping",
+  "rules": [
+    {
+      "description": "Sun paste",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "paste"
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": [
+                "command",
+                "shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "description": "Sun copy",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "copy"
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "description": "Sun cut",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "cut"
+          },
+          "to": [
+            {
+              "key_code": "x",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "description": "Sun undo",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "undo"
+          },
+          "to": [
+            {
+              "key_code": "z",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "description": "Sun again",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "again"
+          },
+          "to": [
+            {
+              "key_code": "y",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    }, 
+
+    {
+      "description": "Sun Help Open Alfred",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "help"
+          },
+          "to": [
+            {
+              "key_code": "spacebar",
+              "modifiers": [
+                "right_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+   {
+      "description": "Sun Printscreen",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "print_screen"
+          },
+          "to": [
+            {
+              "key_code": "5",
+              "modifiers": [
+                "left_command",
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    }    
+
+
+
+  ]
+}
